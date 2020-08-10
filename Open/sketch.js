@@ -1,7 +1,10 @@
-const Logo = document.getElementById('nameContainer');
+const nameDiv = document.getElementById('nameContainer');
 
 anime({
-    target: Logo,
-    opacity:[0,1],
-    translateY: ['1000pxpx','0px']
+  targets: nameDiv,
+  opacity: [0, 1],
+  translateZ: ['125px', '0px'],
+  easing: 'easeOutCubic',
+  duration: 1500,
+  easing: 'easeInQuad',
 })
