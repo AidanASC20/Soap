@@ -1,8 +1,13 @@
 /* All this CSS is doing is making a container as big as your browser, and centering content in it both horizontally and vertically */
-body, html {
+html {
   height: 100%;
   width: 100%;
   margin: 0;
+  padding: 0px;
+}
+header{
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -14,10 +19,22 @@ body, html {
 }
 
 /* Big center aligned text */
-#nameContainer {
+#logoBox {
+  top: -100px;
   text-align: center;
-  font-size: 48px;
-}
+  /* font-size: 48px; */
   
+}
+
+#slogan{
+  position: relative;
+  text-align: center;
+  top: 75px;
+  font-size: 60px;
+  font-family: 'GlacialIndifferenceRegular';
+  
+}
+
+
   
 

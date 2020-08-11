@@ -1,10 +1,10 @@
-const nameDiv = document.getElementById('nameContainer');
+const nameDiv = document.getElementById('logoBox');
 
 anime({
   targets: nameDiv,
   opacity: [0, 1],
-  translateZ: ['125px', '0px'],
-  easing: 'easeOutCubic',
+  translateZ: ['425px', '0px'],
+  easing: 'easeInSine',
   duration: 1500,
   easing: 'easeInQuad',
 })
