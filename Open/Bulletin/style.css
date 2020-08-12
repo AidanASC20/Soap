@@ -1,0 +1,38 @@
+body{
+    background-color: whitesmoke;
+}
+li{
+    display: inline;
+    padding-left: 60px;
+    padding-right: ;
+   
+}
+ul{
+    padding: 0px;
+}
+#Navbar{
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 8px solid;
+}
+.Bulletin{
+    position: relative;
+    display: inline-flex;
+    border: 5px double burlywood;
+    background-color: bisque;
+    left: 300px;
+    top: 50px;
+    width: 75%;
+}
+#Post{
+    position: relative;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+#Post img{
+    justify-content: space-around;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+    margin: 15px;
+}
