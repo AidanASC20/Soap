@@ -23,10 +23,10 @@ li{
     display:flex;
     flex-direction: column;
 }
-#Profile h2{
+/* #Profile h2{
     margin-left: 100px;
     margin-top: 0px;
-}
+} */
 #Profile img{
     display: flex;
     width: 300px;
@@ -52,10 +52,10 @@ li{
 }
 .container{
     background-color: rgb(189, 186, 186);
-    width: 55%;
+    width: 50%;
     border: 2px solid;
 }
-.container ul{
+ ul{
     padding: 0px;
 }
 #directory{
@@ -64,6 +64,14 @@ li{
     display: flex;
     justify-content: baseline;
 }
-#Profile .container{
-    width: 40%;
+ .container{
+    width: 30%;
+}
+.containerZ{
+    position: relative;
+    top: -550px;
+    left: 400px;
+    background-color:rgb(189, 186, 186) ;
+    border: solid 2px;
+    width: 55%;
 }

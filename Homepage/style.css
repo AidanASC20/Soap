@@ -4,7 +4,7 @@ html{
 li{
     display: inline;
     padding-left: 60px;
-    padding-right: ;
+    padding-right: 60px;
    
 }
 #adspace{
@@ -38,6 +38,19 @@ li{
 }
 #eventright-text:hover{
     opacity:1;
+}
+#eventleftn{
+    text-align:center;
+    margin-right:20px; 
+    right:0;
+    width:460px;
+    height:259px;
+    position: absolute;
+    text-align: right;
+    background: url(https://rb.gy/owgx0k);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #Navbar{
     display:flex;
