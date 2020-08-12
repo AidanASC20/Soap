@@ -8,21 +8,69 @@ li{
    
 }
 #border{
+    /* display: flexbox; */
+    /* flex-direction: row; */
+    position: relative;
+    /* left: 440px; */
     border:10px solid black;
-    background-color: rgb(255, 248, 248);
+    background-color:ghostwhite;
     padding: 15px;
-    width: 65%;
-
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-right: 150px;
 }
 
 #Submitbutton{
     position: relative;
-    top: -65px;
-    left: 730px;
+    /* top: 15px; */
+    /* left: 630px; */
     border-radius: 10px;
+}
+#Submitshadow{
+    width: 55px;
+    height: 55px;
+}
+#Submitshadow:hover #Submitbutton{
+
+    box-shadow:  3px 3px 5px 0px rgba(0,0,0,0.75);
 }
 #Message{
     position: relative;
-    left: 100px;
-    top: -30px;
+     left: 120px;
+    /* top: 50px;  */
+    width: 90%;
+}
+#Profile{
+    border-radius: 15px;
+    
+}
+#Navbar{
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 8px solid;
+}
+ul{
+    padding:0px;
+}
+#fname {
+    width: 80%;
+}
+.box {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+#Post {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#Add img{
+    border: 2px solid;
+    width: 50px;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 15px;
 }
