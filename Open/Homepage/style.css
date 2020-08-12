@@ -39,4 +39,15 @@ li{
 #eventright-text:hover{
     opacity:1;
 }
+#Navbar{
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 8px solid;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
 

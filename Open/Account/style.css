@@ -1,0 +1,69 @@
+html{
+    background: whitesmoke;
+}
+#Navbar{
+    display:flex;
+    justify-content: flex-start;
+    border-bottom: 8px solid;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+
+li{
+    display: inline;
+    padding-left: 60px;
+    padding-right: ;
+   
+}
+#Profile{
+    display:flex;
+    flex-direction: column;
+}
+#Profile h2{
+    margin-left: 100px;
+    margin-top: 0px;
+}
+#Profile img{
+    display: flex;
+    width: 300px;
+    border-radius: 500px;
+    margin: 15px;
+}
+.Settings{
+    display: flex;
+    margin: 0px;
+}
+.Settings > #Gear{
+    /* flex-wrap: nowrap; */
+    position: absolute;
+    top: 110px;
+    left: 1180px;
+    padding: 0px;
+    border: 2px solid;
+    border-radius: 5px;
+    
+}
+#Gear:hover{
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+.container{
+    background-color: rgb(189, 186, 186);
+    width: 55%;
+    border: 2px solid;
+}
+.container ul{
+    padding: 0px;
+}
+#directory{
+    position: relative;
+    top: 102px;
+    display: flex;
+    justify-content: baseline;
+}
+#Profile .container{
+    width: 40%;
+}

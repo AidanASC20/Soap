@@ -4,11 +4,11 @@ body{
 li{
     display: inline;
     padding-left: 60px;
-    padding-right: ;
    
 }
 ul{
     padding: 0px;
+    margin-top: 0px;
 }
 #Navbar{
     display:flex;
@@ -35,4 +35,10 @@ ul{
     width: 20%;
     height: 100%;
     margin: 15px;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
 }
