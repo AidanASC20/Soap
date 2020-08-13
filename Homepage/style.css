@@ -4,7 +4,7 @@ html{
 li{
     display: inline;
     padding-left: 60px;
-    padding-right: 60px;
+    padding-right: ;
    
 }
 #adspace{
@@ -16,16 +16,20 @@ li{
 #eventright{
     text-align:center;
     margin-right:20px; 
+    margin-top: 30px;
     right:0;
-    width:460px;
-    height:259px;
+    width:690px;
+    height:388px;
     position: absolute;
     text-align: right;
-    background: url(https://rb.gy/owgx0k);
+    background: url(https://static01.nyt.com/images/2020/09/04/opinion/04-Itani-secondimage/04-Itani-secondimage-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+​
 #eventright-text{
     /* position: absolute;
     top: 50%;
@@ -39,18 +43,30 @@ li{
 #eventright-text:hover{
     opacity:1;
 }
-#eventleftn{
+#eventlefttop{
     text-align:center;
-    margin-right:20px; 
-    right:0;
+    margin-left:20px; 
+    margin-top: 30px;
+    left:0;
     width:460px;
     height:259px;
     position: absolute;
-    text-align: right;
-    background: url(https://rb.gy/owgx0k);
+    text-align: left;
+    background: url(https://d3i6fh83elv35t.cloudfront.net/static/2019/04/2019-03-26T005010Z_882969636_RC14D60E7D00_RTRMADP_3_USA-ELECTION-HARRIS-1024x683.jpg);
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#eventlefttop-text{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    opacity:0;
+    transition:1s;
+}
+#eventlefttop-text:hover{
+    opacity: 1;
 }
 #Navbar{
     display:flex;
@@ -63,4 +79,3 @@ a:visited{
 a:link{
     color: black;
 }
-
