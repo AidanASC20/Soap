@@ -7,12 +7,6 @@ li{
     padding-right: ;
    
 }
-#adspace{
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
 #eventright{
     text-align:center;
     margin-right:20px; 
@@ -31,18 +25,17 @@ li{
 }
 ​
 #eventright-text{
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
     text-align: center;
     font-size: 50px;
     color: white;
     opacity:0;
     transition:1s;
 }
+
 #eventright-text:hover{
     opacity:1;
 }
+
 #eventlefttop{
     text-align:center;
     margin-left:20px; 
