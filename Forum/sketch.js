@@ -16,6 +16,7 @@ function updateDB(event){
         Message: message,
     };
 database.push(userInput);
+console.log(userInput);
 }
 
 database.on("child_added", addMessagetoBoard); 
