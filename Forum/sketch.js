@@ -2,6 +2,7 @@ const database = firebase.database().ref();
 const messageElement = document.getElementById("fname");
 const button = document.getElementById("Submitshadow");
 button.addEventListener("click",updateDB);
+button.addEventListener("click",deleteMessage)
 console.log('blah')
 function updateDB(event){
     event.preventDefault();
@@ -29,3 +30,10 @@ function addMessagetoBoard(rowData){
     pElement.innerText = `${message}`;
     messageContainer.appendChild(pElement);
 }
+ function deleteMessage(Mes){
+     let myMessage = document.getElementById("fname");
+     let myButton = document.getElementById("Submitbutton")
+     myMessage.remove();
+     myButton.remove();
+ }
+ 

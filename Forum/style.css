@@ -26,6 +26,7 @@ li{
     /* top: 15px; */
     /* left: 630px; */
     border-radius: 10px;
+    top: 15px;
 }
 #Submitshadow{
     width: 55px;
@@ -37,7 +38,7 @@ li{
 }
 #Message{
     position: relative;
-     left: 120px;
+     /* left: 120px; */
     /* top: 50px;  */
     width: 90%;
 }
@@ -54,7 +55,8 @@ ul{
     padding:0px;
 }
 #fname {
-    width: 80%;
+    width: 85%;
+    margin-left: 40px;
 }
 .box {
     display: flex;
@@ -66,6 +68,7 @@ ul{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 #Add img{
     border: 2px solid;
@@ -87,5 +90,15 @@ a:active{
     font-size: larger;
 }
 .allMessages{
-    background-color: white;
+    
+    background-color: beige;
+    width: 600px;
+    height: 200px;
+    margin-top: -75px;
+    padding: 10px;
 }
+#name{
+    width: min-content;
+    margin: 0px;
+}
+
