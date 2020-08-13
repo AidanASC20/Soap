@@ -103,7 +103,7 @@
 
   <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-     <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
 
   <script>
     // Your web app's Firebase configuration
@@ -162,10 +162,9 @@
 
 
 
-  <div class="box">
+  <div id="box">
     <div id="border" class="">
-      <img id="Profile" src="asset/Profile.png" alt=""
-        width="60px" height=60px">
+      <img id="Profile" src="asset/Profile.png" alt="" width="60px" height=60px">
 
       <p id="name">John_Doe</p>
       <div id="Post">
@@ -181,12 +180,11 @@
         </form>
       </div>
     </div>
-    <div id="Add">
-      <a>
-        <img src="asset/Add.png" alt="">
-      </a>
-    </div>
+    <a id="Add" class="addButton">
+      <img id "plus" src="asset/Add.png" alt="" width="50px">
+    </a>
   </div>
+  
   <script src="sketch.js"></script>
 </body>
 

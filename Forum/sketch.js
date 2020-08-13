@@ -1,8 +1,10 @@
 const database = firebase.database().ref();
 const messageElement = document.getElementById("fname");
 const button = document.getElementById("Submitshadow");
+const buttonP = document.getElementById("Add")
 button.addEventListener("click",updateDB);
-button.addEventListener("click",deleteMessage)
+button.addEventListener("click",deleteMessage);
+buttonP.addEventListener("click",addForum);
 console.log('blah')
 function updateDB(event){
     event.preventDefault();
@@ -35,5 +37,18 @@ function addMessagetoBoard(rowData){
      let myButton = document.getElementById("Submitbutton")
      myMessage.remove();
      myButton.remove();
+ }
+ function addForum(){
+     let myForum = document.getElementById("box")
+     let myForum_prime = myForum.cloneNode(true)
+     document.body.appendChild(myForum_prime)
+     let addButtons = document.getElementsByClassName('addButton')
+     let counter = 0;
+     for(let element of addButtons){
+         if(counter!=0){
+             element.style.visibility = "hidden";
+         }
+         counter++;
+     }
  }
  
