@@ -86,3 +86,6 @@ a:active{
     color: black;
     font-size: larger;
 }
+.allMessages{
+    background-color: white;
+}
