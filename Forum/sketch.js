@@ -1,4 +1,4 @@
-const database = firebase.database(). ref();
+const database = firebase.database().ref();
 const messageElement = document.getElementById("fname");
 const button = document.getElementById("Submitshadow");
 button.addEventListener("click",updateDB);
