@@ -7,8 +7,8 @@ anime({
   easing: 'easeInSine',
   duration: 1500,
   easing: 'easeInQuad',
-  complete: function (anim){
-    window.location.replace ("Homepage/index.html");
+  // complete: function (anim){
+  //   window.location.replace ("Homepage/index.html");
   }
 })
 
