@@ -1,6 +1,6 @@
 const database = firebase.database(). ref();
 const messageElement = document.getElementById("fname");
-const button = document.getElementById("Submitbutton");
+const button = document.getElementById("Submitshadow");
 button.addEventListener("click",updateDB);
 
 function updateDB(event){
