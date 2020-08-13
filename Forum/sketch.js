@@ -2,7 +2,7 @@ const database = firebase.database(). ref();
 const messageElement = document.getElementById("fname");
 const button = document.getElementById("Submitshadow");
 button.addEventListener("click",updateDB);
-
+console.log('blah')
 function updateDB(event){
     event.preventDefault();
     let message         = messageElement.value;
