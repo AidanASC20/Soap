@@ -10,5 +10,5 @@ anime({
   complete: function (anim){
     window.location.replace ("Homepage/index.html");
   }
-})
+});
 
